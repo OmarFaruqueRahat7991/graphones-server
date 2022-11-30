@@ -26,7 +26,13 @@ async function run() {
             res.send(categories)
         });
 
-        
+        app.get('/allPhones/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: ObjectId(id) };
+            const allCategories = await allBrandsCollection.find(query).toArray();
+            console.log(allCategories);
+            res.send(allCategories)
+        })
 
     }
     finally {
