@@ -20,6 +20,12 @@ async function run() {
     try {
         const allBrandsCollection = client.db('grabPhones').collection('usedMobilesCollection')
 
+        app.get('/allPhones', async (req, res) => {
+            const query = {};
+            const categories = await allBrandsCollection.find(query).toArray();
+            res.send(categories)
+        });
+
         
 
     }
