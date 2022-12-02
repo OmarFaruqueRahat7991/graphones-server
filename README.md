@@ -4,7 +4,7 @@ This project is the server side of my-twelfth-assignment of my web development c
 
 
 
-## Technologies i Used In This Project:
+## Technologies I Used In This Project:
 1. NodeJS
 2. Express
 3. Cors
@@ -14,7 +14,7 @@ This project is the server side of my-twelfth-assignment of my web development c
 
 
 ## Live Website Link: https://my-twelfth-assignment-client.web.app/
-## Live Website Github Repository Link: https://github.com/OmarFaruqueRahat7991/my-twelfth-assignment-client
+## Client Site Github Repository Link: https://github.com/OmarFaruqueRahat7991/my-twelfth-assignment-client
 ## Server Site Link: https://my-twelfth-assignment-server.vercel.app/
 
 
